@@ -26,9 +26,9 @@ import org.testng.annotations.Test;
 
 import java.time.LocalDateTime;
 
-public class APISampleTestBooks {
+public class APITestBooks {
 
-    private static final Logger LOGGER = Logger.getLogger(APISampleTestBooks.class);
+    private static final Logger LOGGER = Logger.getLogger(APITestBooks.class);
 
 
     @MethodOwner(owner = "babich")
