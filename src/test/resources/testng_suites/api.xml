@@ -17,7 +17,8 @@
 
 	<test name="User API tests">
 		<classes>
-			<class name="com.solvd.automation.lab.carina.demo.APISampleTest"/>
+			<class name="com.solvd.automation.lab.carina.demo.AzureUserTest"/>
+			<class name="com.solvd.automation.lab.carina.demo.APISampleTestBooks"/>
 		</classes>
 	</test>
 
