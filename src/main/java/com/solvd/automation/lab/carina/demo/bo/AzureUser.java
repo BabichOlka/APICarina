@@ -8,6 +8,14 @@ public class AzureUser {
     private String username;
     private String password;
 
+    public AzureUser() {
+    }
+    public AzureUser(String username,String password) {
+
+        this.username = username;
+        this.password = password;
+    }
+
     @JsonCreator
     public AzureUser(
             @JsonProperty("ID") String id,
